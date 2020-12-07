@@ -17,3 +17,6 @@ def submit(request):
         return render(request,"home.html",{'msg':msg})
     else:
         return HttpResponse("404 - Not Found")
+
+# user   root
+# pass   root
